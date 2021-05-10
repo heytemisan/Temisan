@@ -1,0 +1,437 @@
+body {
+    scroll-behavior: ;
+    background-color: rgb(49, 85, 133);
+    /* background-image: url('img/83-838381_html-wallpaper-background-code-coding-tags.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative; */
+}
+
+nav {
+    background-color: rgb(92, 154, 237);
+    background-image: url('img/nav.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.nav-link {
+    font-weight: 600;
+    font-size: small;
+}
+.navbar-brand {
+    font-weight: 600;
+}
+
+.me {
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500; 
+}
+
+.resume {
+    background-color:  rgb(17, 40, 70);
+}
+
+.bold {
+    font-size: xx-large;
+}
+
+.lead {
+    font-size: larger;
+}
+
+
+.about {
+    background-color:  rgb(26, 57, 97);
+    background-image: url('img/programming.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    border-radius: 30px;
+    transition: all 0.9s;
+}
+
+.about:hover {
+    transition: 0.5s;
+    box-shadow: 0 5px 20px rgb(21, 97, 197);
+    
+}
+
+
+.lead {
+    color: rgb(255, 255, 255);
+}
+
+.space {
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: larger;
+}
+
+
+.project {
+    background-color: rgb(17, 40, 70);
+    border-radius: 30px;
+}
+
+.project:hover {
+    transition: 0.5s;
+    box-shadow: 0 5px 20px rgb(21, 97, 197);
+}
+
+.contact {
+    background-color: rgb(17, 40, 70);
+    border-radius: 30px;
+    transition: all 0.9s;
+}
+
+.btn-block {
+    background-color: rgb(17, 40, 70);
+}
+
+.margin {
+    margin-top: 19% !important;
+}
+
+.content {
+    justify-content: space-between;
+}
+
+.top {
+    color: grey;
+}
+
+.form-control {
+    background-color: rgb(17, 40, 70);
+    color: white;
+    border: black;
+}
+
+
+.top :hover {
+    text-decoration: none;
+    color: cadetblue;
+}
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+}
+  
+.back-to-top i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    background: #5846f9;
+    color: #fff;
+    transition: all 0.4s;
+}
+  
+.back-to-top i:hover {
+    background: #7b27d8;
+    color: #fff;
+}
+
+.section {
+    padding-top: 54px;
+    padding-bottom: 54px;
+    background-image: url('img/');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    border-radius: 30px;
+    transition: all 0.9s;
+    border-radius: 30px;
+}
+
+
+.project {
+    padding-top: 54px;
+    padding-bottom: 54px;
+    background-image: url('img/section.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    border-radius: 30px;
+    transition: all 0.9s;
+    border-radius: 30px;
+}
+
+.section:hover {
+    transition: 0.5s;
+    box-shadow: 0 5px 20px rgb(21, 97, 197);
+}
+
+.section-title {
+      font-size: 32px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      margin-bottom: 20px;
+      text-shadow: 2px solid blanchedalmond;
+     
+}
+
+.bg-project {
+      background-image: url('img/368d0ab77b3d7e8b58c2cd4b5f61ccd0.png');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      position: relative;
+}
+
+.span {
+    background-color: cadetblue;
+    /* border-radius: 10px; */
+}
+
+
+.resume {
+    background-image: url('img/83-838381_html-wallpaper-background-code-coding-tags.jpg');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      position: relative;
+}
+
+.scroll {
+        background-color: rgb(14, 18, 24);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+
+.copyright {
+     text-align:right;
+     position: relative;
+}
+
+.submit {
+    border-radius: 30px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+  height: 100%;
+  font-weight: 800;
+}
+
+body{
+  background: #030321;
+  font-family: Arial;
+}
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+    stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #0091bd;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #1c0a5e;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #142766;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  height: 80vh;
+  background: #37517e;
+}
+
+#hero .container {
+  padding-top: 72px;
+}
+
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#hero h2 {
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
+#hero .btn-get-started {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px 11px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px 0 0 0;
+  color: #fff;
+  background: #47b2e4;
+}
+
+#hero .btn-get-started:hover {
+  background: #209dd8;
+}
+
+#hero .btn-watch-video {
+  font-size: 16px;
+  display: inline-block;
+  padding: 10px 0 8px 40px;
+  transition: 0.5s;
+  margin: 10px 0 0 25px;
+  color: #fff;
+  position: relative;
+}
+
+#hero .btn-watch-video i {
+  color: #fff;
+  font-size: 32px;
+  position: absolute;
+  left: 0;
+  top: 7px;
+  transition: 0.3s;
+}
+
+#hero .btn-watch-video:hover i {
+  color: #47b2e4;
+}
+
+#hero .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@media (max-width: 991px) {
+  #hero {
+    height: 100vh;
+    text-align: center;
+  }
+  #hero .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #hero .hero-img {
+    text-align: center;
+  }
+  #hero .hero-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  #hero .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+  #hero .hero-img img {
+    width: 80%;
+  }
+  #hero .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+  #hero .btn-watch-video {
+    font-size: 16px;
+    padding: 10px 0 8px 40px;
+    margin-left: 20px;
+  }
+  #hero .btn-watch-video i {
+    font-size: 32px;
+    top: 7px;
+  }
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+
+.nav-item::after{content:'';display:block;width:0px;height:2px;background:#fec400;transition: 0.2s;}
+.nav-item:hover::after{width:100%;}
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link,.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{color:#fec400;}
+.nav-link{padding:15px 5px;transition:0.2s;}
+.dropdown-item.active, .dropdown-item:active{color:#212529;}
+.dropdown-item:focus, .dropdown-item:hover{background:#fec400;}
